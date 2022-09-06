@@ -1,0 +1,74 @@
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 10%;
+    margin: 20px ;
+}
+body{
+    background: #aabbdf;
+}
+
+main{
+    display: flex;
+}
+
+main textarea{
+    font-style: italic;
+    margin-left: 10%;
+}
+
+
+
+.titulo{
+    padding: 25%;
+    font-size: 30px;
+}
+
+.principal{
+    margin-left: 20px;
+}
+
+.principal textarea{
+    border-radius: 10px;
+}
+
+.botones{
+    display: flex;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    margin-left: 25%;
+}
+
+.boton-encriptar{
+    background: #2e5ff1;
+    color: white;
+    margin-left: 30px;
+    border-radius: 20%;
+}
+
+.boton-desencriptar{
+    background: #d0d2d8;
+    color: black;
+    margin-left: 20px;
+    border-radius: 20%;
+}
+
+.mensaje{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+.texto-resultante button{
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50%;
+    border-radius: 10px;
+}
